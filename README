@@ -1,0 +1,11 @@
+## This Page is currently a Work In Progress!
+
+# ToF-Project-Specialisatieproject
+School Project ToF Specialisatieproject
+
+
+# Info & Credits
+This project uses the https://github.com/AntBlo/vl53l3cx-minimal-esp32-example project as a base
+<br>
+It uses the following arduino library:
+https://github.com/stm32duino/VL53L3CX
