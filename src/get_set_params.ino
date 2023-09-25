@@ -1,11 +1,3 @@
-/*
- *  VL53L5CX ULD example with parameter-setting and interrupts
- *
- *  Copyright (c) 2021 Kris Winer, Simon D. Levy
- *
- *  MIT License
- */
-
 #include <Wire.h>
 #include "Debugger.hpp"
 #include "VL53L5cx.h"
@@ -92,8 +84,15 @@ void loop(void)
     } // end of VL53L5CX interrupt handling
 
     // Flash the LED
-    digitalWrite(LED_PIN, HIGH);
-    delay(10);
-    digitalWrite(LED_PIN, LOW);
+    // digitalWrite(LED_PIN, HIGH);
+    // delay(10);
+    // digitalWrite(LED_PIN, LOW);
+
+// THIS NEEDS TO BE ADDED
+// while True:
+//     read_sensor_measurements()
+//     transform_sensor_measurements_to_3d_point_cloud()
+//     register_point_cloud_to_xyz_coordinate_system()
+//     update_3d_point_cloud()
 
 } // loop
